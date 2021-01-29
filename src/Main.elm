@@ -74,6 +74,7 @@ view model =
       ]
       [ Html.text <| "IT IS " ++ leftString model ]
     ]
+  , Html.text "code: https://github.com/YuyaAizawa/syuumatu"
   ]
 
 leftString : Model -> String
